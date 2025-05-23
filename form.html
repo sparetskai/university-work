@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Форма зворотнього зв’язку - Софія Парецька</title>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Сайт Софії Парецької</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Про мене</a>
+        <a href="education.html">Освіта</a>
+        <a href="hobbies.html">Хобі</a>
+        <a href="projects.html">Проекти</a>
+        <a href="contacts.html">Контакти</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="form.html" style="font-weight:bold;">Форма зворотнього зв’язку</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Форма зворотнього зв’язку</h2>
+            <form action="#" method="post">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required placeholder="Ваше ім'я" />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@mail.com" />
+
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" rows="6" required placeholder="Ваше повідомлення"></textarea>
+
+                <input type="submit" value="Відправити" />
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Софія Парецька</p>
+    </footer>
+</body>
+
+</html>
